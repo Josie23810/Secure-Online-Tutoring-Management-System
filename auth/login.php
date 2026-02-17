@@ -45,6 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOTMS | Login</title>
     <style>
         /* General body and container */
@@ -62,6 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             background: #fff;
             padding: 40px 30px;
             width: 360px;
+            max-width: 90%;
             border-radius: 10px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
             text-align: center;
